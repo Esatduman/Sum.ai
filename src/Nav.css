@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Center the links horizontally */
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+}
+
+.nav a:hover {
+    color: #007bff; /* Change this to your preferred hover color */
+    text-decoration: underline;
+}
+
+img {
+    height: auto;
+    width: 12rem;
+}
