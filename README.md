@@ -1,3 +1,20 @@
+
+
+# Sum.ai Activity Diagram
+the main goal of this project was to summarize the users prompt and display it for the user
+model is used from ChatGbt's API for the summarization.
+![image](https://github.com/user-attachments/assets/15734bf0-e4f2-4fea-bd79-dede477aa6f4)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
