@@ -36,6 +36,8 @@ function Home() {
       'Authorization': `Bearer ${apiKey}`,
     };
 
+    console.log("API Key:", process.env.REACT_APP_OPENAI_API_KEY)
+    
     const data = {
       model: 'gpt-3.5-turbo',
       messages: [
