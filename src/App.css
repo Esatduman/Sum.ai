@@ -114,3 +114,12 @@ textarea {
   font-weight: bold;
   text-align: center;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .about_p {
+    margin: 2rem; /* Smaller margin for mobile screens */
+    font-size: 18px; /* Further reduced font size for smaller screens */
+    line-height: 1.8; /* Adjusted for compact spacing */
+  }
+}
