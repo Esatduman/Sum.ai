@@ -106,3 +106,11 @@ textarea {
   color: #28a745; /* Green color for success message */
   font-weight: bold;
 }
+
+.about_p{
+  margin: 10rem;
+  font-size: 25px;
+  line-height: 3;
+  font-weight: bold;
+  text-align: center;
+}
